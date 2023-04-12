@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+header{
+    background-color: #c6c6c6;
+    height: 50px;
+}
+
+section{
+    height: 810px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+form{
+    width: 50%;
+    height: 60px;
+    margin: 30px auto;
+    background-color: #c6c6c6;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+form p{
+    background-color: #f14444;
+    width: 50%;
+}
+
+.task_input{
+    width: 75%;
+    height: 40px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.task_btn{
+    background-color: #267ef1;
+    color: #fff;
+    height: 40px;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid #c6c6c6;
+}
+
+th{
+    font-size: 20px;
+    background-color: #267ef1;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover{
+    background-color: #c6c6c6;
+}
+
+.task{
+    text-align: left;
+}
+
+.delete a{
+    background-color: #f14444;
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #c6c6c6;
+    height:50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+}
